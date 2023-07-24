@@ -22,7 +22,7 @@ let resume2 = document.getElementById("resume-button-2").addEventListener("click
 
 function NewTab() {
   window.open(
-    "https://drive.google.com/file/d/1dcs0197kWVc8AL6vlydOr5WJMRyC5EhN/view?usp=sharing",
+    "Ankit-Sisodia-Resume.pdf",
     "_blank"
   );
 }
@@ -82,3 +82,4 @@ const typed = new Typed('.multiple-text', {
   backdelay: 1000,
   loop: true
 })
+
