@@ -19,6 +19,39 @@
     /* color: var(--text-shadow-blue); */
   
   }
+
+  .multiple-text {
+    white-space: nowrap; /* Prevent text wrapping */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .home-image {
+    flex: 0 0 auto; /* Don't allow the image container to grow or shrink */
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .home-image img.home-img {
+    width: 350px; /* Set a larger width for the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  #projects{
+    margin-bottom: 100px;
+  }
+
+  .react-activity-calendar{
+    margin-top: 30px;
+  }
+
+  .stats{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  
   
   :root {
   
